@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="imgcontact">
               <img src="https://www.mobinius.com/wp-content/uploads/2020/02/contact-us-banner-img.svg" alt="contact svg"/>
             </div>
-            <form action="mailto:abidadhikari@toolshubs.com">
+            <form action="https://www.toolshubs.com/contact">
               <div className="inputgroup">
                 <label>Name</label>
                 <input type="text" maxLength="80" name="fname" required></input>
