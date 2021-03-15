@@ -14,7 +14,7 @@ const Projects=()=>{
         <Box
         imgsrc="https://specials-images.forbesimg.com/imageserve/5f302109ffad89f9130e07db/960x0.jpg?cropX1=0&cropX2=4800&cropY1=243&cropY2=2943"
         title="PORTFOLIO WEBSITE (THIS)"
-        href="https://github.com/abidadhikari/reactportfolio"
+        href="https://github.com/abidadhikari/react"
         desc="Personal Portfolio Website GitHub Code"
         />
         <Box
