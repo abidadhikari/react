@@ -29,7 +29,12 @@ const About = () => {
           </h2>
           <br/>
           <h3>
-          orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop pu
+          I have 2+years of web
+Designing , web
+development & mobile
+application development
+experience. JavaScript and Python being my core technical Skill, I  don't limit within it.
+I do more study and research to keep updated with the latest technologies. Visit my Github Page to know more about my projects and skills. Link given below.
           </h3>
         </div>
         <div className="img-area">

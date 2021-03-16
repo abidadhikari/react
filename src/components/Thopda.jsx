@@ -1,6 +1,7 @@
 import React from "react";
 import Name from "./Name";
 import About from "./About";
+import Skills from "./Skills";
 import Projects from "./Projects"
 import Contact from "./Contact";
 const Thopda = () => {
@@ -24,7 +25,7 @@ const Thopda = () => {
 
       </div>
       <div className="skills" id="skills">
-        SKILLS
+        <Skills/>
       </div>
       <div className="projects" id="projects">
         <Projects/>

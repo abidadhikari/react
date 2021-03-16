@@ -424,8 +424,31 @@ body {
 }
 
 .skills {
-  padding-top: 8.5vh;
+  padding-top: 17vh;
+  padding-bottom: 10vh;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.skills h3 {
+  margin-bottom: 3rem;
+  font-size: x-large;
+  border-bottom: 2px solid crimson;
+}
+
+.skills .skills-box {
+  width: 50%;
 }
 
 .projects {
@@ -725,6 +748,9 @@ footer .footer-credit {
   .head-section .home-content {
     border: none;
   }
+  .skills .skills-box {
+    width: 90%;
+  }
   .projects {
     padding: 12vh 1rem 5vh 1rem;
   }
@@ -777,5 +803,183 @@ footer .footer-credit {
 
 .open {
   display: none;
+}
+
+.skills ::-moz-selection {
+  color: #fff;
+  background: crimson;
+}
+
+.skills ::selection {
+  color: #fff;
+  background: crimson;
+}
+
+.skills .skill-bars {
+  padding: 25px 30px;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.skills .skill-bars .bar {
+  margin: 20px 0;
+}
+
+.skills .skill-bars .bar:first-child {
+  margin-top: 0px;
+}
+
+.skills .skill-bars .bar .info {
+  margin-bottom: 5px;
+}
+
+.skills .skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  -webkit-animation: showText 0.5s 1s linear forwards;
+          animation: showText 0.5s 1s linear forwards;
+}
+
+@-webkit-keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skills .skill-bars .bar .progress-line {
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.8);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 1px rgba(255, 255, 255, 0.8);
+  -webkit-animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+.skills .bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  background: crimson;
+  -webkit-animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.skills .bar .progress-line.html span {
+  width: 95%;
+}
+
+.skills .bar .progress-line.css span {
+  width: 90%;
+}
+
+.skills .bar .progress-line.jquery span {
+  width: 85%;
+}
+
+.skills .bar .progress-line.python span {
+  width: 50%;
+}
+
+.skills .bar .progress-line.mysql span {
+  width: 75%;
+}
+
+.skills .progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  -webkit-animation: showText2 0.5s 1.5s linear forwards;
+          animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.skills .progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  -webkit-animation: showText2 0.5s 1.5s linear forwards;
+          animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@-webkit-keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+.skills .progress-line.html span::after {
+  content: "95%";
+}
+
+.skills .progress-line.css span::after {
+  content: "90%";
+}
+
+.skills .progress-line.jquery span::after {
+  content: "85%";
+}
+
+.skills .progress-line.python span::after {
+  content: "50%";
+}
+
+.skills .progress-line.mysql span::after {
+  content: "75%";
 }
 /*# sourceMappingURL=style.css.map */
