@@ -24,10 +24,10 @@ const Projects=()=>{
         desc="Live Analog Clock works from user's system time."
         />
         <Box
-        imgsrc="https://cdn3.vectorstock.com/i/thumb-large/67/67/coronavirus-silhouette-icon-with-inscription-vector-29616767.jpg"
+        imgsrc="https://images.pexels.com/photos/4031867/pexels-photo-4031867.jpeg"
         title="Nepal Covid Stats"
         href="https://abidadhikari.github.io/nepalcovidstat/"
-        desc="Nepal Covid Stats Fetched from askBhunte."
+        desc="Nepal Covid Stats Fetched from askBhunte.git "
 
         />
 
