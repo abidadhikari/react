@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 const About = () => {
   // const imgsrc = "https://source.unsplash.com/random/600x900";
-  const imgsrc1="https://instagram.fktm8-1.fna.fbcdn.net/v/t51.2885-19/s320x320/128538941_406632273910223_1688009846802494183_n.jpg?tp=1&_nc_ht=instagram.fktm8-1.fna.fbcdn.net&_nc_ohc=Q7YyMp59nzoAX93uCmm&oh=0077db8b0fa3d5ca7a265e0313d91fb7&oe=6078BB01"
+  const imgsrc1="https://avatars.githubusercontent.com/u/70445257?s=460&u=54cd19e0b14c18060fc7f7388d65e915d7b9395c&"
   return (
     <>
       <div className="about-div">
