@@ -27,7 +27,7 @@ const Projects=()=>{
         imgsrc="https://cdn3.vectorstock.com/i/thumb-large/67/67/coronavirus-silhouette-icon-with-inscription-vector-29616767.jpg"
         title="Nepal Covid Stats"
         href="https://abidadhikari.github.io/nepalcovidstat/"
-        desc="Nepal Covid Stats Fetched from askBhunte"
+        desc="Nepal Covid Stats Fetched from askBhunte."
 
         />
 
