@@ -1,10 +1,12 @@
 import React from "react";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import facebook from "../image/facebook.svg";
 import twitter from "../image/twitter.svg";
 import instagram from "../image/instagram.svg";
 import github from "../image/github.svg";
 import linkedin from "../image/linkedin.svg";
 const Footer=()=>{
+    
     return(
         <>
         <footer>
@@ -24,8 +26,15 @@ const Footer=()=>{
                 &copy; 2021 Abid Adhikari
             </div>
         </footer>
+        <MessengerCustomerChat
+    pageId="1848291705481338"
+    appId="3977244478974970"
+  />
+
+
        
         </>
     )
 }
+
 export default Footer;
