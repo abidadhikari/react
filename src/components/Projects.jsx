@@ -23,7 +23,7 @@ const Projects = () => {
         <Box
           imgsrc="https://abidadhikari.github.io/github-readme-generator-profile/capture.PNG"
           title="GitHub Readme Generator"
-          href="https://www.toolshubs.com"
+          href="https://abidadhikari.github.io/github-readme-generator-profile/"
           desc="React APP"
         />
         <Box
