@@ -16,7 +16,7 @@ const Projects = () => {
         <Box
           imgsrc={bpsc}
           title="BLOGPOINT"
-          href="https://www.toolshubs.com"
+          href="https://abidadhikari.github.io/blogpoint/"
           desc="Blogging site MERN APP by Abid Adhikari"
         />
 
