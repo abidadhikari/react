@@ -1,6 +1,7 @@
 import React from "react";
 import Box from "./Box";
 import bpsc from "../image/bpsc.png";
+import aasc from "../image/aasc.PNG";
 import corona from "../image/corona.jpg"
 const Projects = () => {
   return (
@@ -9,9 +10,15 @@ const Projects = () => {
       <div className="projects-box">
         <Box
           imgsrc="https://www.toolshubs.com/image/indexcover.png"
-          title="TOOLSHUBS.COM"
+          title="TOOLSHUBS.COM (DOMAIN/HOSTING EXPIRED)"
           href="https://www.toolshubs.com"
           desc="Tools App using PHP"
+        />
+        <Box
+          imgsrc={aasc}
+          title="AdhikariAbid (UNDER CONSTRUCTION)"
+          href="https://www.adhikariabid.com.np"
+          desc="Personal Project NextJS"
         />
         <Box
           imgsrc={bpsc}
